@@ -1,0 +1,1 @@
+schtasks /create /F /tn KeyboardFix /tr "powershell %~dp0keybeard-fix.ps1" /sc onstart
